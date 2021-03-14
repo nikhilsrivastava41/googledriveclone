@@ -1,5 +1,5 @@
 import React from 'react';
-import GDlogo from '../../media/drive_icon.png';
+import GDlogo from '../../media/drive-icon.png';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import SearchIcon from '@material-ui/icons/Search';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
