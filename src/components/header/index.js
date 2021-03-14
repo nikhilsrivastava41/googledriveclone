@@ -6,7 +6,7 @@ import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import SettingsIcon from '@material-ui/icons/Settings';
 import AppsIcon from '@material-ui/icons/Apps';
 import '../../styles/Header.css';
-const index = () => {
+const index = ({userPhoto}) => {
     return (
         <div className="header">
             <div className="header__logo">
@@ -26,7 +26,7 @@ const index = () => {
                     <SettingsIcon/>
                 </span>
                 <AppsIcon/>
-                <img src="" alt="user image"/>
+                <img src={userPhoto} alt="user image"/>
             </div>
         </div>
     )
